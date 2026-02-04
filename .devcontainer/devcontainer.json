@@ -11,8 +11,7 @@
 }
 },
 //installiamo le dipendenze e scarichiamo Flutter
-"updateContentCommand": "sudo apt-get update && sudo apt-get install -y xz-utils zip unzip && git clone
-https://github.com/flutter/flutter.git -b stable --depth 1 /home/vscode/flutter",
+"updateContentCommand": "sudo apt-get update && sudo apt-get install -y xz-utils zip unzip && git clone https://github.com/flutter/flutter.git -b stable --depth 1 /home/vscode/flutter",
 //aggiungiamo Flutter al PATH (ora funziona il comando 'flutter')
 "remoteEnv": {
 "PATH": "${containerEnv:PATH}:/home/vscode/flutter/bin"
